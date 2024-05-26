@@ -1,0 +1,54 @@
+
+.stats{
+    display: flex;
+    flex-direction: row;
+
+    gap: 50px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+
+    gap: 100px;
+}
+
+.hinterContainer{
+
+    & > .hinterButton{
+        height: 100px;
+        width: 100px;
+        padding: 25px;
+
+        background-color: #ddf2f6;
+        border: 0;
+        border-radius: 100%;
+
+        .hinterCount{
+            position: relative;
+            bottom: 70px;
+            left: 30px;
+
+            background-color: blue;
+            color: white;
+            border: 0;
+
+            place-content: center;
+
+            font-size: 24px;
+
+            width: 40px;
+            height: 40px;
+            border-radius: 100%;
+        }
+    }
+}
+
+.gameStart{
+    display: flex;
+    flex-direction: column;
+
+    gap: 30px;
+
+    font-size: 20px;
+}

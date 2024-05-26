@@ -1,0 +1,22 @@
+
+.btn{
+    background-color: blue;
+    border-radius: 10px;
+    border: 0;
+    color: white;
+    min-height: 40px;
+
+    font-size: 18px;
+    transition: .2s;
+    cursor: pointer;
+}
+
+
+
+.btn:hover{
+    background-color: #00007e;
+}
+
+.btn:active{
+    background-color: #000000;
+}

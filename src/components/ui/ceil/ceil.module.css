@@ -1,0 +1,35 @@
+
+.btn{
+    min-height: 50px;
+    min-width: 50px;
+
+    background: #fff;
+    border: 1px solid #cccccc;
+    border-collapse: collapse;
+
+    font-size: 28px;
+    font-family: Inconsolata, monospace;
+    font-weight: lighter;
+    text-align: center;
+    vertical-align: center;
+}
+
+.btn:nth-child(3n){
+    border-right: 2px solid #1c1c1c;
+}
+
+.btn:nth-child(9n){
+    border-right: 1px solid black;
+}
+
+.btn:nth-child(n+19):nth-child(-n+27){
+    border-bottom: 2px solid #1c1c1c;
+}
+
+.btn:nth-child(n+46):nth-child(-n+54){
+    border-bottom: 2px solid #1c1c1c;
+}
+
+.btn:disabled{
+    background-color: #c6dfe8;
+}

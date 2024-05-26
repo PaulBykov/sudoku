@@ -1,0 +1,9 @@
+
+.difficultySlider{
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+    place-items: center;
+    place-content: center;
+}

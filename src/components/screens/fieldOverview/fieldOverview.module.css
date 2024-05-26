@@ -1,0 +1,12 @@
+
+.field{
+    display: grid;
+    grid-template-columns: repeat(9, auto);
+
+    gap: 0;
+    justify-content: center;
+    align-items: center;
+
+    border: 2px solid midnightblue;
+    border-collapse: collapse;
+}
